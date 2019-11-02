@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "server",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.19.4",
+    "package.json": "^2.0.1",
+    "socket.io": "^2.2.0"
+  }
+}
