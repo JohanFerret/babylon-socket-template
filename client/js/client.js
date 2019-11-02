@@ -42,6 +42,6 @@ window.addEventListener('DOMContentLoaded', function(){
     var sendMessage = function(type, msg) {
         socket.emit(type, (msg));
     }
-    //sendMessage('chat', 'Hello');
-    //sendMessage('pos', 'Position');
+    sendMessage('chat', 'Hello');
+    sendMessage('pos', 'Position');
 });
